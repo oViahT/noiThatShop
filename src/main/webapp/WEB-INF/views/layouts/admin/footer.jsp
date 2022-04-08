@@ -43,7 +43,7 @@ Footer
 			<h5>Tài Khoản Của Bạn</h5>
 			<a href="#">TÀI KHOẢN CỦA BẠN</a><br> <a href="#">CÁ NHÂN
 				THÔNG TIN</a><br> <a href="#">ĐỊA CHỈ</a><br> <a href="#">GIẢM
-				GIÁ</a><br> <a href="#">LỊCH SỬ ĐẶT HÀNG</a><br>
+				GIÁ</a><br> <a href="/lich-su-mua-hang">LỊCH SỬ ĐẶT HÀNG</a><br>
 		</div>
 		<div class="span2">
 			<h5>Thông Tin</h5>

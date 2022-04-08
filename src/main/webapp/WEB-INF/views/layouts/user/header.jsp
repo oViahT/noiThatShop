@@ -47,12 +47,7 @@
 			<p>
 				<br> <strong> Hỗ trợ (24/7) : 1800 1234 </strong><br> <br>
 			</p>
-			<a href="<c:url  value="/gio-hang"/>" type="button"> <span
-				class="btn btn-mini">[ ${ TotalQuantityCart } ] <span
-					class="icon-shopping-cart"></span>
-			</span>
-			</a><span class="btn btn-warning btn-mini">₫</span> <span
-				class="btn btn-mini">$</span> <span class="btn btn-mini">&euro;</span>
+			
 		</div>
 	</div>
 </header>

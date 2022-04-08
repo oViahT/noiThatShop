@@ -60,7 +60,7 @@ Footer
 				<br>
 			</c:if>
 			<a href="<c:url value="/lien-he"/>">ĐỊA CHỈ</a><br> <a href="#">GIẢM
-				GIÁ</a><br> <a href="<c:url value="/#/${loginInfo.user}"/>">LỊCH SỬ MUA HÀNG</a><br>
+				GIÁ</a><br> <a href="<c:url value="/lich-su-mua-hang/${loginInfo.user}"/>">LỊCH SỬ MUA HÀNG</a><br>
 		</div>
 		<div class="span2">
 			<h5>Thông Tin</h5>

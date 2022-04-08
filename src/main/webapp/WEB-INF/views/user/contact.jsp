@@ -19,8 +19,8 @@
 				<h5>
 					10/80C Xa lộ Hà Nội, Phường Tân Phú<br /> TP. Thủ Đức thuộc TP. Hồ
 					Chí Minh<br />
-					<br /> tclshop@gmail.com<br /> ﻿Điện thoại: 1800 1234<br /> Fax
-					123-456-5679<br /> web:http://localhost:8080/SnacksShop
+					<br /> 5AEshop@gmail.com<br /> ﻿Điện thoại: 1800 1234<br /> Fax
+					123-456-5679<br /> web:http://localhost:8080/Shopnoithat
 				</h5>
 			</div>
 		</div>

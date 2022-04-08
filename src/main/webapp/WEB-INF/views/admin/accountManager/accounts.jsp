@@ -24,13 +24,12 @@
 					</ul>
 					<h1 class="page-header">
 						Quản Lý Tài Khoản<small class="pull-right"> Bạn có ${ accManagger.size() }
-							tài khoản </small>
-						${loginInfo.id}
-						
-        <a href="<c:url value="/dang-ky-admin"/>">Thêm nhân viên</a>
-      			
-										<h3>${statusNV}</h3>
-					</h1>		
+							tài khoản </small> 
+							
+					</h1>
+					<a href="<c:url value="/dang-ky-admin"/>">Thêm nhân viên</a>
+
+						<h3>${statusNV}</h3>
 					<h4>${statusAdd}</h4>
 				</div>
 			</div>
@@ -50,7 +49,7 @@
 											<th>Địa Chỉ</th>
 											<th>Số Điện Thoại</th>
 											<th>Xóa Tài Khoản</th>
-										
+
 										</tr>
 									</thead>
 									<tbody>
@@ -68,14 +67,14 @@
 												<td>${ item.name }</td>
 												<td>${ item.address }</td>
 												<td>${ item.phoneNumber }</td>
-											
+
 												<c:if test="${ loginInfo.user == 'admin1@gmail.com' }">
 													<td><a href="<c:url value="/deleteUser/${item.id}"/>"
-													class="btn btn-mini btn-danger" type="button"> <span
-														class="icon-remove"></span>
-												</a></td>
+														class="btn btn-mini btn-danger" type="button"> <span
+															class="icon-remove"></span>
+													</a></td>
 												</c:if>
-												
+
 											</tr>
 										</c:forEach>
 									</tbody>

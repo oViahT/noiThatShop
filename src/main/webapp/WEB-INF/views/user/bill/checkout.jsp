@@ -15,11 +15,7 @@
 		<div id="sidebar" class="span3">
 			<div class="well well-small">
 				<ul class="nav nav-list">
-					<c:forEach var="item" items="${catogorys }">
-						<li><a href='<c:url value="/san-pham/${ item.maLoai }"/>'><span
-								class="icon-circle-blank"></span> ${ item.tenLoai }</a></li>
-						<li>
-					</c:forEach>
+					
 					<li><a class="totalInCart" href="<c:url value="/gio-hang"/>"><strong>Tổng
 								tiền mua <span class="badge badge-warning pull-right"
 								style="line-height: 18px;"><fmt:formatNumber

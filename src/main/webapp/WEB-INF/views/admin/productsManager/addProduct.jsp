@@ -13,21 +13,7 @@
 <body>
 	<div class="row">
 		<div id="sidebar" class="span3">
-			<div class="well well-small">
-				<ul class="nav nav-list">
 
-					<c:forEach var="item" items="${catogorys }">
-						<li><a href='<c:url value="/san-pham/${ item.maLoai }"/>'><span
-								class="icon-circle-blank"></span> ${ item.tenLoai }</a></li>
-						<li>
-					</c:forEach>
-					<li><a class="totalInCart" href="<c:url value="/gio-hang"/>"><strong>Tổng
-								tiền mua <span class="badge badge-warning pull-right"
-								style="line-height: 18px;"><fmt:formatNumber
-										type="number" groupingUsed="true" value="${TotalPriceCart}" />₫</span>
-						</strong></a></li>
-				</ul>
-			</div>
 
 		</div>
 		<div class="span9">
@@ -51,10 +37,7 @@
 					method="POST" modelAttribute="addProducts">
 					<div class="control-group">
 						<label class="control-label">Loại sản phẩm <sup>*</sup></label>
-						<!-- <div class="controls"> -->
-						<%-- <form:input  type="text" placeholder=" VD: Bánh,..." path="maLoai"/> --%>
-						<!-- <input type="text" placeholder=" VD: Bánh,..."> -->
-						<!-- <label class="control-label">Title <sup>*</sup></label> -->
+						
 						<div class="controls">
 
 							<form:select path="maLoai">
@@ -68,14 +51,14 @@
 					<div class="control-group">
 						<label class="control-label">Tên sản phẩm <sup>*</sup></label>
 						<div class="controls">
-							<form:input path="tenSP" type="text" placeholder=" Bánh đa,..." />
+							<form:input path="tenSP" type="text" placeholder=" gường,tủ..." />
 						</div>
 					</div>
 					<div class="control-group">
 						<label class="control-label">Hình ảnh <sup>*</sup></label>
 						<div class="controls">
 							<form:input path="image" type="text"
-								placeholder=" banh-da.png,..." />
+								placeholder=" tu1.png,..." />
 						</div>
 					</div>
 					<div class="control-group">

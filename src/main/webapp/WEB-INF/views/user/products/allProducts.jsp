@@ -38,7 +38,22 @@
 	<!-- 
 New Products
 -->
+
 	<div class="well well-small">
+		<div class="row">
+		<div id="sidebar" class="span3">
+			<div style="width:900px"class="well well-small">
+				<ul style="display:flex;text-align:center"  class="nav nav-list">
+					<c:forEach var="item" items="${catogorys }">
+						<li style="margin-left:20px" ><a href='<c:url value="/san-pham/${ item.maLoai }"/>'><span
+								class="icon-circle-blank"></span> ${ item.tenLoai }</a></li>
+						<li>
+					</c:forEach>
+					<li></li>
+				</ul>
+			</div>
+		</div>
+	</div>
 		<h3>Sản phẩm của chúng tôi</h3>
 		<div class="row-fluid">
 			<ul class="thumbnails">

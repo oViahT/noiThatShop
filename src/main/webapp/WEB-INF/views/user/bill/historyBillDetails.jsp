@@ -14,11 +14,12 @@ Body Section
 	<div class="row">
 		<div class="span12">
 			<ul class="breadcrumb">
-							<li><a href="<c:url value="/trang-chu"/>">Trang chủ</a> <span
-								class="divider">/</span></li>
-								<li><a href="#">Lịch sử mua hàng</a> <span
-								class="divider">/</span></li>
-							<li class="active">Chi tiết hóa đơn</li>
+				<li><a href="<c:url value="/trang-chu"/>">Trang chủ</a> <span
+					class="divider">/</span></li>
+				<li><a
+					href="javascript:history.back()">Lịch
+						sử mua hàng</a> <span class="divider">/</span></li>
+				<li class="active">Chi tiết hóa đơn</li>
 			</ul>
 			<div class="well well-small">
 				<h1>
@@ -40,7 +41,8 @@ Body Section
 						</tr>
 					</thead>
 					<tbody>
-						<c:forEach var="item" items="${ historyBillDetails }" varStatus="i">
+						<c:forEach var="item" items="${ historyBillDetails }"
+							varStatus="i">
 							<tr>
 								<td>${ i.index + 1 }</td>
 								<td><img width="100"
@@ -57,9 +59,9 @@ Body Section
 						</c:forEach>
 					</tbody>
 				</table>
-				<br /> <a href="#"
-					class="shopBtn btn-large"><span class="icon-arrow-left"></span>
-					Quay Lại </a>
+				<br /> <a href="<c:url value="javascript:history.back()"/>"
+					class="shopBtn btn-large"><span
+						class="icon-arrow-left"></span> Quay Lại </a>
 			</div>
 		</div>
 	</div>

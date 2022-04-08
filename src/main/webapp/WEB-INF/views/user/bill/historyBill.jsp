@@ -76,7 +76,7 @@
 											</c:forEach>
 										</tbody>
 									</table>
-									<br /> <a href="<c:url value="/trang-chu"/>"
+									<br /> <a href="<c:url value="/tat-ca-san-pham"/>"
 										class="shopBtn btn-large"><span class="icon-arrow-left"></span>
 										Tiếp Tục Mua Sắm </a>
 								</div>
